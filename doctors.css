@@ -29,11 +29,13 @@ h4{
 
 }
 .menu{
-    color: #fafafa;
-    font-size: 28px;
     width: calc(100%/2);
     display: flex;
     justify-content: space-between;
+}
+a{
+    color: #fafafa;
+    font-size: 28px;
 }
 
 main{
@@ -98,7 +100,7 @@ p{
     display: flex;
     flex-direction: column;
     margin: 70px 10px;
-    width: calc(100%/3-20px);
+    width: calc(100% / 3 -20px);
     align-items: center;
 
 }
@@ -215,4 +217,188 @@ h3{
     color: #0284C7;
     padding: 10px 0;
 
+}
+@media (max-width: 768px) {
+    .content{
+        width: 100%;
+        padding:0  20px;
+        box-sizing: border-box;
+        }
+    header{
+        width: 100%;
+        height: 60px;
+    }
+    h4{
+        font-size: 26px;
+    }
+    a{font-size: 14px;
+
+    }
+    .menu{
+        width: calc(100%/12*7);
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 24px;
+    }
+    h2{
+        font-size: 30px;
+        padding-top: 100px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    .cell{
+        box-sizing: border-box;
+
+    }
+    .specialists{
+        justify-content: center;
+    }
+    .block-doctor{
+        margin: 30px 0;
+    }
+    p-name{
+        line-height: 14px;
+    }
+    p-speciality{
+        line-height: 18px;
+    }
+    footer{
+        width: 100%;
+        height:370px;    
+    }
+    .footer-up{
+        padding-bottom:0px ;
+    }
+    .footer-up-left{
+        width: calc(100%/12*17);
+        margin-bottom:0px;   
+    }
+    .facebook{
+        width: calc(100%/2);
+        margin-top: -10px;
+        
+    }
+    .icon-facebook{
+        height: 14px;
+        width: 14px;
+    }
+    .footer-middle{
+        flex-flow: row wrap;
+    }
+    .our{
+        margin: 15px 0;
+        
+    }
+    .our-info{
+        padding-right: 30px;
+    }
+    .icon-our{
+        height: 15px;
+        width: 14px;
+        margin-top: 10px;
+    
+    }
+    .footer-end{
+        display: flex;
+        justify-content: right;
+        margin: 20px 0;
+    
+    }
+    p-info-end{
+        font-size: 12px;
+    }
+    span1{
+        font-size: 14px;
+    }
+    p-info{
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        padding-right: 15px;
+    }
+    h3{        
+        font-size: 16px;        
+    }
+}
+@media (max-width: 600px) {
+    .content{
+        width: 100%;
+        padding:0  20px;
+        box-sizing: border-box;
+        }
+    header{
+        width: 100%;
+        height: 80px;
+    }
+    h4{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .menu{
+        font-size: 18px;
+        width: calc(100%/12*7);
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 24px;
+    }
+    .foto-doctor{
+        width: 250px;
+        height: 300px;
+        object-position: center;
+        object-fit: cover;
+    }
+    footer{
+        width: 100%;
+        height:550px;    
+    }
+    .block-doctor{
+        width: 100%;
+    }   
+    .footer-up{
+        padding-bottom:0px ;
+    }
+    .footer-up-left{
+        width: calc(100%/12*17);
+        margin-bottom:0px;   
+    }
+    .facebook{
+        width: calc(100%/2);
+        margin-top: -10px;
+        
+    }
+    .icon-facebook{
+        height: 14px;
+        width: 14px;
+    }
+    .footer-middle{
+        flex-direction: column;
+    }
+    .our{
+        margin: 15px 0;
+        
+    }
+    .our-info{
+        padding-right: 30px;
+    }
+    .icon-our{
+        height: 15px;
+        width: 14px;
+        margin-top: 10px;
+    
+    }
+    .footer-end{
+        display: flex;
+        justify-content: right;
+        margin: 20px 0;
+    
+    }
+    p-info-end{
+        font-size: 12px;
+    }
+    span1{
+        font-size: 10px;
+    }
 }

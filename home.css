@@ -584,7 +584,7 @@ p-info-end{
 }
 @media (max-width: 600px) {
     .content{
-        width: auto;
+        width: 100%;
         padding:0  20px;
         box-sizing: border-box;
         }
@@ -634,14 +634,7 @@ p-info-end{
         padding: 40px 0px;
     }
     .enroll-button{
-        width: calc(100%/12*10);
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-        padding: 10px;
-        border: 0px;
-        border-radius: 10px;
-        background-color: #38bdf8;
+        width: calc(100%/12*9);
     }
     .white{
         width: 100%;
@@ -747,7 +740,7 @@ p-info-end{
     }
 
     span1{
-        font-size: 12px;
+        font-size: 10px;
     }
     .info{
         display: flex;
