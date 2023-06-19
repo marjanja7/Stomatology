@@ -44,7 +44,7 @@ button {
 .container{
     display: none;
 }
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         .content{
             width: 100%;
             padding:0  20px;
@@ -72,7 +72,8 @@ button {
             display: none;
         }
         .menuMobil{
-            display: block;
+            width: 100%/5;
+            display: flex;
             justify-content: space-between;
         }          
         button{
@@ -96,5 +97,6 @@ button {
         a{
             color: #0284c7;
             font-size: 28px;
+            font-weight: 600;
         }    
     }
